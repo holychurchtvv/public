@@ -1,5 +1,3 @@
-# Public
-
 | Code | Country       | Norm Pop (vs. China) | Norm GDP (vs. USA) | Leader                     | Capital       | Official Language          | Area (km²)    | X   | IG  |
 |------|---------------|----------------------|--------------------|----------------------------|---------------|----------------------------|---------------|-----|-----|
 | AR   | Argentina     | 3.21%                | 2.36%              | Javier Milei               | Buenos Aires  | Spanish                    | 2,780,400     | [X](https://twitter.com/JMilei) | [IG](https://instagram.com/JMilei) |
