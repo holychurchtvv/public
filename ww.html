@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Hashtag</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .hashtag {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        footer {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="hashtag" id="hashtag">Loading...</p>
+        <footer>Hashtag updates in real-time for PST.</footer>
+    </div>
+
+    <script>
+        function calculateHashtag() {
+            const electionDate = new Date("2024-11-05T00:00:00-08:00"); // Election date in PST
+            const now = new Date(); // Current date and time
+            const oneDay = 24 * 60 * 60 * 1000;
+
+            // Calculate days since the election
+            const daysSinceElection = Math.floor((now - electionDate) / oneDay);
+
+            // Get the current ISO week number
+            const firstJan = new Date(now.getFullYear(), 0, 1);
+            const dayOfYear = Math.ceil((now - firstJan + oneDay) / oneDay);
+            const isoWeek = Math.ceil((dayOfYear + firstJan.getDay() - 1) / 7);
+
+            // Generate the hashtag
+            return `#ww${isoWeek}y24k #ep${daysSinceElection}`;
+        }
+
+        function updateHashtag() {
+            const hashtagElement = document.getElementById("hashtag");
+            hashtagElement.textContent = calculateHashtag();
+        }
+
+        // Update hashtag every second
+        updateHashtag();
+        setInterval(updateHashtag, 1000);
+    </script>
+</body>
+</html>
