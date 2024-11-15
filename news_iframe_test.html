@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Sites Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        iframe {
+            width: 100%;
+            height: 150px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>News Sites Database</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Website</th>
+                <th>Instagram</th>
+                <th>Twitter</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Owner</th>
+                <th>Political Leaning</th>
+                <th>Last Date of Sale</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><iframe src="https://www.nytimes.com" title="NYTimes Preview"></iframe></td>
+                <td><iframe src="https://www.instagram.com/nytimes/" title="NYTimes Instagram"></iframe></td>
+                <td><iframe src="https://twitter.com/nytimes" title="NYTimes Twitter"></iframe></td>
+                <td>The New York Times</td>
+                <td>USA</td>
+                <td>The New York Times Company</td>
+                <td>Center-Left</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.washingtonpost.com" title="Washington Post Preview"></iframe></td>
+                <td><iframe src="https://www.instagram.com/washingtonpost/" title="Washington Post Instagram"></iframe></td>
+                <td><iframe src="https://twitter.com/washingtonpost" title="Washington Post Twitter"></iframe></td>
+                <td>The Washington Post</td>
+                <td>USA</td>
+                <td>Nash Holdings (Jeff Bezos)</td>
+                <td>Center-Left</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.foxnews.com" title="Fox News Preview"></iframe></td>
+                <td><iframe src="https://www.instagram.com/foxnews/" title="Fox News Instagram"></iframe></td>
+                <td><iframe src="https://twitter.com/foxnews" title="Fox News Twitter"></iframe></td>
+                <td>Fox News</td>
+                <td>USA</td>
+                <td>Fox Corporation</td>
+                <td>Right</td>
+                <td>2019</td>
+            </tr>
+            <!-- Add other entries following this pattern -->
+        </tbody>
+    </table>
+</body>
+</html>
