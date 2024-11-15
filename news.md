@@ -1,12 +1,12 @@
-| Name                  | Country | Owner                          | Political Leaning | Last Date of Sale |
-|-----------------------|---------|--------------------------------|-------------------|-------------------|
-| The New York Times    | USA     | The New York Times Company     | Center-Left       | N/A               |
-| The Washington Post   | USA     | Nash Holdings (Jeff Bezos)     | Center-Left       | 2013              |
-| Fox News              | USA     | Fox Corporation                | Right             | 2019              |
-| CNN                   | USA     | Warner Bros. Discovery         | Center-Left       | 2022              |
-| The Wall Street Journal | USA   | News Corp                      | Center-Right      | 2007              |
-| USA Today             | USA     | Gannett Company                | Center            | N/A               |
-| Los Angeles Times     | USA     | Nant Capital (Patrick Soon-Shiong) | Center-Left   | 2018              |
-| NPR                   | USA     | Non-profit organization        | Center-Left       | N/A               |
-| Breitbart News        | USA     | Breitbart News Network         | Right             | N/A               |
-| HuffPost              | USA     | BuzzFeed, Inc.                 | Left              | 2020              |
+| S  | I  | X  | Name                  | Country | Owner                          | Political Leaning | Last Date of Sale |
+|----|----|----|-----------------------|---------|--------------------------------|-------------------|-------------------|
+| [🔗](https://www.nytimes.com) | [🔗](https://www.instagram.com/nytimes) | [🔗](https://twitter.com/nytimes) | The New York Times    | USA     | The New York Times Company     | Center-Left       | N/A               |
+| [🔗](https://www.washingtonpost.com) | [🔗](https://www.instagram.com/washingtonpost) | [🔗](https://twitter.com/washingtonpost) | The Washington Post   | USA     | Nash Holdings (Jeff Bezos)     | Center-Left       | 2013              |
+| [🔗](https://www.foxnews.com) | [🔗](https://www.instagram.com/foxnews) | [🔗](https://twitter.com/foxnews) | Fox News              | USA     | Fox Corporation                | Right             | 2019              |
+| [🔗](https://www.cnn.com) | [🔗](https://www.instagram.com/cnn) | [🔗](https://twitter.com/cnn) | CNN                   | USA     | Warner Bros. Discovery         | Center-Left       | 2022              |
+| [🔗](https://www.wsj.com) | [🔗](https://www.instagram.com/wsj) | [🔗](https://twitter.com/wsj) | The Wall Street Journal | USA   | News Corp                      | Center-Right      | 2007              |
+| [🔗](https://www.usatoday.com) | [🔗](https://www.instagram.com/usatoday) | [🔗](https://twitter.com/usatoday) | USA Today             | USA     | Gannett Company                | Center            | N/A               |
+| [🔗](https://www.latimes.com) | [🔗](https://www.instagram.com/latimes) | [🔗](https://twitter.com/latimes) | Los Angeles Times     | USA     | Nant Capital (Patrick Soon-Shiong) | Center-Left   | 2018              |
+| [🔗](https://www.npr.org) | [🔗](https://www.instagram.com/npr) | [🔗](https://twitter.com/npr) | NPR                   | USA     | Non-profit organization        | Center-Left       | N/A               |
+| [🔗](https://www.breitbart.com) | [🔗](https://www.instagram.com/breitbartnews) | [🔗](https://twitter.com/breitbartnews) | Breitbart News        | USA     | Breitbart News Network         | Right             | N/A               |
+| [🔗](https://www.huffpost.com) | [🔗](https://www.instagram.com/huffpost) | [🔗](https://twitter.com/huffpost) | HuffPost              | USA     | BuzzFeed, Inc.                 | Left              | 2020              |
